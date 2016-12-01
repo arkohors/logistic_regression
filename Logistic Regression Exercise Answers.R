@@ -59,5 +59,5 @@ plot(allEffects(logitModel))
 ## data in "table"
 data.frame(Effect("r_maritl", logitModel))
 
-## Bonus--let's look at the probabiities for the age categories
+## Bonus--let's look at the probabilities for the age categories
 data.frame(Effect("age_p", logitModel))
